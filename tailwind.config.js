@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         heroGradient:
-          "linear-gradient(180deg, rgba(71,30,79,1) 5%, rgba(24,24,24,1) 55%, rgba(24,24,24,1) 100%)",
+          "linear-gradient(180deg, rgba(12,98,145,1) 5%, rgba(24,24,24,1) 63%, rgba(24,24,24,1) 100%)",
       },
       fontFamily:{
         'Poppins-Light':'Poppins-Light',
