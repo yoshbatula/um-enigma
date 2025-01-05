@@ -1,10 +1,12 @@
 import './App.css'
+import Hero from './components/Hero/Hero'
 
 function App() {
 
   return (
-    <section className='bg-black min-h-lvh' >
-    </section>
+    <div className='min-h-lvh' >
+      <Hero></Hero>
+    </div>
   )
 }
 
