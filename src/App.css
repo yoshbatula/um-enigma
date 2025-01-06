@@ -1,0 +1,63 @@
+.text {
+  mask: url("#textMask");
+}
+
+div > span > .bg-neonGradient {
+  animation: neonMove 2s ease-in-out 0s infinite alternate forwards;
+
+}
+
+@keyframes neonMove {
+  0%{
+    transform: translateX(0) rotate(-30deg);
+  }
+  25%{
+    transform: translateX(0) rotate(-30deg);
+  }
+  75%{
+    transform: translateX(72vw) rotate(-30deg);
+  }
+  100%{
+    transform: translateX(72vw) rotate(-30deg);
+  }
+}
+
+.bg-crimsonGradient{
+  animation: firstCrimsonMove 2s ease-in-out 0s infinite alternate forwards;
+}
+
+.bg-crimsonGradient2{
+  animation: secondCrimsonMove 2s ease-in-out 0s infinite alternate forwards;
+}
+
+
+
+@keyframes firstCrimsonMove {
+  0%{
+    transform: translateY(100%) translateX(-50%) ;
+  }
+  25%{
+    transform: translateY(100%) translateX(-50%);
+  }
+  65%{
+    transform: translateY(0) translateX(-50%);
+  }
+  100%{
+    transform: translateY(0) translateX(-50%);
+  }
+}
+
+@keyframes secondCrimsonMove {
+  0%{
+    transform: translateY(-50%) translateX(90%) ;
+  }
+  25%{
+    transform: translateY(-50%) translateX(90%);
+  }
+  65%{
+    transform: translateY(50%) translateX(90%);
+  }
+  100%{
+    transform: translateY(50%) translateX(90%);
+  }
+}
