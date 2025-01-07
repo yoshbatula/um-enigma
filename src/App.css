@@ -61,3 +61,52 @@ div > span > .bg-neonGradient {
     transform: translateY(50%) translateX(90%);
   }
 }
+
+button:hover > .learnMoreSpan > img:first-of-type{
+  transform: translateX(100%) translateY(-100%);
+}
+
+button:hover > .learnMoreSpan > img:nth-of-type(2){
+  transform: translateX(-50%) translateY(-50%);
+}
+
+button:hover > .learnMoreSpan{
+  background-color: white;
+}
+
+button:hover > span:first-of-type{
+  color: white;
+  
+}
+
+.rotatingWheel{
+  animation: rotatingWheel 5s ease-in-out 1s infinite normal forwards;
+}
+
+@keyframes rotatingWheel{
+  0%{
+    transform: rotate(0deg);
+  }
+  13%{
+    transform: rotate(0deg);
+  }
+  26%{
+    transform: rotate(15deg);
+  }
+  39%{
+    transform: rotate(15deg);
+  }
+  52%{
+    transform: rotate(30deg);
+  }
+  65%{
+    transform: rotate(30deg);
+  }
+  78%{
+    transform: rotate(45deg);
+  }
+  91%{
+    transform: rotate(45deg);
+
+  }
+}

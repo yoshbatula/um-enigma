@@ -11,8 +11,10 @@ export default {
         crimsonGradient:
         'radial-gradient(circle, rgba(131,34,77,1) 0%, rgba(131,34,77,1) 23%, rgba(255,255,255,0.000001) 70%)',
         crimsonGradient2:
-        'radial-gradient(circle, rgba(131,34,77,1) 0%, rgba(131,34,77,1) 15%, rgba(255,255,255,0.000001) 70%)'
-        },
+        'radial-gradient(circle, rgba(131,34,77,1) 0%, rgba(131,34,77,1) 15%, rgba(255,255,255,0.000001) 70%)',
+        wheelGradient:
+        'radial-gradient(circle, rgba(255,255,255,0.7038807759431898) 10%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%);',
+      },
 
       fontFamily: {
         "Poppins-Light": "Poppins-Light",
