@@ -1,11 +1,13 @@
 import RotatingCircles from "./RotatingCircles";
 import whiteAboutArrow from '@images/whiteAboutArrow.svg'
 import aboutArrow from '@images/aboutArrow.svg'
+import EventsCarousel from "./EventsCarousel";
+
 export default function Events() {
   return (
     <section className="min-h-[83vh] grid grid-cols-2 grid-rows-2 px-[8vw] mt-[100px] mb-[130px] ">
       <div className="row-span-2 flex justify-center items-center">
-        <div className="w-[93%] h-[93%] bg-red-300 rounded-[8px]"></div>
+        <EventsCarousel />
       </div>
       <div className=" grid grid-cols-2">
         <div className="flex pl-[30px] flex-col justify-end">
