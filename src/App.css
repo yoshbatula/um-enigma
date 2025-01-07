@@ -2,10 +2,20 @@
   mask: url("#textMask");
 }
 
+
+.heroSection{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("@images/heroBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 46%;
+
+}
 div > span > .bg-neonGradient {
   animation: neonMove 2s ease-in-out 0s infinite alternate forwards;
 
 }
+
+
 
 @keyframes neonMove {
   0%{

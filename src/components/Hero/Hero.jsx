@@ -1,10 +1,12 @@
 import facebookLogo from "@images/facebookLogo.svg";
 import instagramLogo from "@images/instagramLogo.svg";
 import linkedinLogo from "@images/linkedinLogo.svg";
+        
 export default function Hero() {
   return (
     <section
-      className="bg-heroGradient min-h-lvh px-[140px] pb-[10px]
+      className="heroSection bg-no-repeat
+      bg-cover bg- min-h-lvh px-[140px] pb-[10px]
      text-white font-Poppins-Black flex flex-col justify-end"
     >
       <div className="flex gap-3 ml-[20px]">
