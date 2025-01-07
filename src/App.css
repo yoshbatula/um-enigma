@@ -110,3 +110,23 @@ button:hover > span:first-of-type{
 
   }
 }
+
+.aboutCard1{
+  mask-image: url('@images/aboutCard1.svg');
+}
+.aboutCard2{
+  mask-image: url('@images/aboutCard2.svg');
+}
+.aboutCard3{
+  mask-image: url('@images/aboutCard3.svg');
+}
+
+div:hover > .aboutCard1{
+  background-color: #0c6291;
+} 
+div:hover > .aboutCard2{
+  background-color: #7e1946;
+} 
+div:hover > .aboutCard3{
+  background-color: #a63346;
+} 

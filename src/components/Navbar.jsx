@@ -15,7 +15,7 @@ export default function Navbar(){
             <img src={navArrow} alt="" />
           </div>
         </button>
-        <div className='flex gap-[25px] items-center'>  
+        <div className='flex gap-[25px]  items-center'>  
           <button className='font-Poppins-Bold'>MENU</button>
           <img className='cursor-pointer' src={whiteBox} alt="" />
         </div>
