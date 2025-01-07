@@ -23,7 +23,8 @@ export default function About() {
             EMPOWERING STUDENTS IN TECH THROUGH CONNECTION
           </h4>
           <p
-            className="font-Poppins-Medium text-[18px] mt-[24px] text-[#525252]
+            className="font-Poppins-Medium text-[18px] mt-[24px] text-[#2C2C2C]
+            opacity-70
         max-w-[50ch]"
           >
             Our organization is dedicated to connecting students in tech,
@@ -71,7 +72,8 @@ export default function About() {
             >
               12
             </p>
-            <p className="font-Poppins-Medium text-[14px] text-[#525252]">
+            <p className="font-Poppins-Medium text-[14px] text-[#2C2C2C]
+            opacity-70">
               Partnered Communities
             </p>
           </div>
@@ -79,7 +81,8 @@ export default function About() {
             <p className="font-Poppins-SemiBold text-[32px] tracking-tighter text-[#0c6291]">
               100+
             </p>
-            <p className="font-Poppins-Medium text-[14px] text-[#525252]">
+            <p className="font-Poppins-Medium text-[14px] text-[#2C2C2C]
+            opacity-70">
               Members
             </p>
           </div>

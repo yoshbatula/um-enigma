@@ -14,6 +14,8 @@ export default {
         'radial-gradient(circle, rgba(131,34,77,1) 0%, rgba(131,34,77,1) 15%, rgba(255,255,255,0.000001) 70%)',
         wheelGradient:
         'radial-gradient(circle, rgba(255,255,255,0.7038807759431898) 10%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%);',
+        rotatingCircleGradient:
+        ' linear-gradient(135deg, rgba(126,25,70,1) 0%, rgba(255,255,255,1) 100%)'
       },
 
       fontFamily: {

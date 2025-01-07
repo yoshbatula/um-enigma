@@ -130,3 +130,80 @@ div:hover > .aboutCard2{
 div:hover > .aboutCard3{
   background-color: #a63346;
 } 
+
+.rotatingCircleContainer:nth-child(1) > div{
+  animation: rotatingCircle1 1.85s ease-in-out 0s infinite alternate forwards;
+}
+.rotatingCircleContainer:nth-child(2) > div{
+  animation: rotatingCircle2 1.85s ease-in-out 0s infinite alternate forwards;
+}
+.rotatingCircleContainer:nth-child(3) > div{
+  animation: rotatingCircle3 1.85s ease-in-out 0s infinite alternate forwards;
+}
+.rotatingCircleContainer:nth-child(4) > div{
+  animation: rotatingCircle4 1.85s ease-in-out 0s infinite alternate forwards;
+}
+
+@keyframes rotatingCircle1{
+  0%,20%{
+    transform: rotate(0deg);
+  }
+  35%{
+    transform: rotate(-3deg);
+  }
+  
+  65%{
+    transform: rotate(93deg);
+  }
+
+  80%,100%{
+    transform: rotate(90deg);
+
+  }
+}
+@keyframes rotatingCircle2{
+  0%,20%{
+    transform: rotate(180deg);
+  }
+  35%{
+    transform: rotate(177deg);
+  }
+  65%{
+    transform: rotate(273deg);
+  }
+  80%,100%{
+    transform: rotate(270deg);
+
+  }
+}
+
+@keyframes rotatingCircle3{
+  0%,20%{
+    transform: rotate(0deg);
+  }
+  35%{
+    transform: rotate(-3deg);
+  }
+  65%{
+    transform: rotate(93deg);
+  }
+  80%,100%{
+    transform: rotate(90deg);
+
+  }
+}
+@keyframes rotatingCircle4{
+  0%,20%{
+    transform: rotate(180deg);
+  }
+  35%{
+    transform: rotate(177deg);
+  }
+  65%{
+    transform: rotate(273deg);
+  }
+  80%,100%{
+    transform: rotate(270deg);
+
+  }
+}

@@ -9,7 +9,8 @@ export function AboutCardSection() {
           <p className="max-w-[24ch] font-Poppins-SemiBold text-[18px]">
             Empowering Students in Tech Through Connection
           </p>
-          <p className="max-w-[32ch] font-Poppins-Medium text-[16px] text-[#525252]  ">
+          <p className="max-w-[32ch] font-Poppins-Medium text-[16px] text-[#2C2C2C]
+          opacity-70  ">
             Our organization is dedicated to connecting students in tech,
             providing them opportunities to learn
           </p>
@@ -20,7 +21,8 @@ export function AboutCardSection() {
           <p className="max-w-[24ch] font-Poppins-SemiBold text-[18px]">
             Empowering Students in Tech Through Connection
           </p>
-          <p className="max-w-[32ch] font-Poppins-Medium text-[16px] text-[#525252]  ">
+          <p className="max-w-[32ch] font-Poppins-Medium text-[16px] text-[#2C2C2C]
+          opacity-70  ">
             Our organization is dedicated to connecting students in tech,
             providing them opportunities to learn
           </p>
@@ -31,7 +33,8 @@ export function AboutCardSection() {
           <p className="max-w-[24ch] font-Poppins-SemiBold text-[18px]">
             Empowering Students in Tech Through Connection
           </p>
-          <p className="max-w-[32ch] font-Poppins-Medium text-[16px] text-[#525252]  ">
+          <p className="max-w-[32ch] font-Poppins-Medium text-[16px] text-[#2C2C2C]
+            ">
             Our organization is dedicated to connecting students in tech,
             providing them opportunities to learn
           </p>
