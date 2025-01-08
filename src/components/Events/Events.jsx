@@ -1,6 +1,6 @@
 import RotatingCircles from "./RotatingCircles";
-import whiteAboutArrow from '@images/whiteAboutArrow.svg'
-import aboutArrow from '@images/aboutArrow.svg'
+import whiteAboutArrow from "@images/whiteAboutArrow.svg";
+import aboutArrow from "@images/aboutArrow.svg";
 import EventsCarousel from "./EventsCarousel";
 
 export default function Events() {
@@ -29,39 +29,43 @@ export default function Events() {
             Upcoming Events
           </h3>
         </div>
-        <p className="font-Poppins-SemiBold text-[43px] mb-[4px]">Unveiling The Web</p>
-        <p className="font-Poppins-Medium text-[18px] opacity-70 
-        text-[#2C2C2C]">
+        <p className="font-Poppins-SemiBold text-[43px] mb-[4px]">
+          Unveiling The Web
+        </p>
+        <p
+          className="font-Poppins-Medium text-[18px] opacity-70 
+        text-[#2C2C2C]"
+        >
           Introduction To Web Development
         </p>
-                  <button
-            className="px-[30px] self-baseline min-h-[60px] flex justify-center items-center
+        <button
+          className="px-[30px] self-baseline min-h-[60px] flex justify-center items-center
           text-[16px] font-Poppins-Bold text-[#0C6291] gap-[16px] mt-[24px] mb-[30px]
           hover:bg-[#0C6291]
           border-[2px] border-[#0C6291] rounded-full"
-          >
-            <span className="mt-[3px]">LEARN MORE</span>
-            <span
-              className="aspect-square w-[28px] rounded-full bg-[#0C6291]
+        >
+          <span className="mt-[3px]">LEARN MORE</span>
+          <span
+            className="aspect-square w-[28px] rounded-full bg-[#0C6291]
         
           flex justify-center items-center relative learnMoreSpan 
           overflow-hidden"
-            >
-              <img
-                className="w-[24px] transition-transform ease-in-out duration-300 "
-                src={whiteAboutArrow}
-                alt=""
-              />
-              <img
-                className="absolute top-1/2 left-1/2 w-[24px] 
+          >
+            <img
+              className="w-[24px] transition-transform ease-in-out duration-300 "
+              src={whiteAboutArrow}
+              alt=""
+            />
+            <img
+              className="absolute top-1/2 left-1/2 w-[24px] 
             transition-transform ease-in-out duration-300
             -translate-x-[150%] translate-y-[50%]
             "
-                src={aboutArrow}
-                alt=""
-              />
-            </span>
-          </button>
+              src={aboutArrow}
+              alt=""
+            />
+          </span>
+        </button>
       </div>
     </section>
   );
