@@ -1,7 +1,7 @@
 export default function RotatingCircles(){
   const blockOfCircles = Array.from({ length: 4 }, () => "");
   return(
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap ">
       {blockOfCircles.map((block,index)=>
       index === 1 || index === 2?(
       <div className="w-[50%] aspect-square flex items-baseline rotatingCircleContainer overflow-hidden" key={index}>

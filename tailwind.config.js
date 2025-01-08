@@ -15,7 +15,9 @@ export default {
         wheelGradient:
         'radial-gradient(circle, rgba(255,255,255,0.7038807759431898) 10%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%);',
         rotatingCircleGradient:
-        ' linear-gradient(135deg, rgba(126,25,70,1) 0%, rgba(255,255,255,1) 100%)'
+        ' linear-gradient(135deg, rgba(126,25,70,1) 0%, rgba(255,255,255,1) 100%)',
+        knowledgeCardGradient:
+        'linear-gradient(180deg, rgba(0,0,0,0) 70%, rgba(0,0,0,1) 100%)',
       },
 
       fontFamily: {

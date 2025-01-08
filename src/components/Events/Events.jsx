@@ -5,16 +5,16 @@ import EventsCarousel from "./EventsCarousel";
 
 export default function Events() {
   return (
-    <section className="min-h-[83vh] grid grid-cols-2 grid-rows-2 px-[8vw] mt-[100px] mb-[130px] ">
+    <section className="min-h-[83vh] grid grid-cols-2 grid-rows-2 px-[8vw] mt-[30px] mb-[30px] ">
       <div className="row-span-2 flex justify-center items-center">
         <EventsCarousel />
       </div>
-      <div className=" grid grid-cols-2">
+      <div className=" grid grid-cols-2 items-end py-[20px]">
         <div className="flex pl-[30px] flex-col justify-end">
           <p className="font-Poppins-SemiBold text-[32px] text-[#0C6291]">4</p>
           <p
             className="font-Poppins-Medium text-[14px] text-[#2C2C2C]
-        opacity-70 mb-[20px]"
+        opacity-70 "
           >
             Previous Events
           </p>

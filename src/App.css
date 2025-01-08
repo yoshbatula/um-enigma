@@ -84,7 +84,7 @@ button:hover > .learnMoreSpan{
   background-color: white;
 }
 
-button:hover > span:first-of-type{
+button:not(.knowledgeButton):hover > span:first-of-type{
   color: white;
   
 }
