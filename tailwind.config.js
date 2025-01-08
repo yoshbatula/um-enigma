@@ -18,6 +18,8 @@ export default {
         ' linear-gradient(135deg, rgba(126,25,70,1) 0%, rgba(255,255,255,1) 100%)',
         knowledgeCardGradient:
         'linear-gradient(180deg, rgba(0,0,0,0) 70%, rgba(0,0,0,1) 100%)',
+        redBoxGradient:
+        'linear-gradient(90deg, rgba(255,255,255,1) -30%, rgba(166,51,70,1) 85%);',
       },
 
       fontFamily: {
