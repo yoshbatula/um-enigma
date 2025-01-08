@@ -107,7 +107,7 @@ const Images = ({imgIndex}) => {
               backgroundImage: `url(${imgSrc})`,
             }}
             animate={{
-              scale: imgIndex === index?1: 0.95
+              scale: imgIndex === index?1: 1
             }}
             transition={{
               type: 'spring',
