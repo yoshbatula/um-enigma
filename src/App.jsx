@@ -3,6 +3,7 @@ import About from './components/About/About'
 import Events from './components/Events/Events'
 import Hero from './components/Hero/Hero'
 import Knowledge from './components/Knowledge/Knowledge'
+import Logo from './components/Logo/Logo'
 import Navbar from './components/Navbar'
 import Organizations from './components/Organizations/Organizations'
 
@@ -16,6 +17,7 @@ function App() {
       <Events ></Events>
       <Organizations></Organizations>
       <Knowledge></Knowledge>
+      <Logo></Logo>
     </div>
   )
 }

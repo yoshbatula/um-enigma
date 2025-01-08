@@ -217,3 +217,16 @@ div:hover > .aboutCard3{
 
   }
 }
+
+.infiniteSlider{
+  animation: infiniteSlide 11s linear 0s infinite normal;
+}
+
+@keyframes infiniteSlide{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(calc(-50% - 231.5px));
+  }
+}
