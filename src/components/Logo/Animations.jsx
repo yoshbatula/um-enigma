@@ -1,13 +1,17 @@
-import { motion } from "motion/react"
+import { motion, useAnimate } from "motion/react"
 import blueRectangle from '@images/blueRectangle.svg'
 import blackArrow from '@images/blackArrow.svg'
+import maroonSquare from '@images/maroonSquare.svg'
+import { useEffect } from "react"
 export default function Animations(){
+
+
   return (
     <>
     <RedBox />
     <BlueRectangle />
     <BlackArrow />
-    <div className='w-full'></div>
+    <MaroonSquare />
   </>)
 }
 
@@ -119,7 +123,7 @@ const BlueRectangle = () =>{
 const BlackArrow = () =>{
   return(
     <>
-    <div className='w-full max-w-[21%] h-fit flex items-start overflow-hidden p-[2px] flex-wrap relative'>
+    <div className='w-full max-w-[23%] h-fit flex items-start overflow-hidden p-[2px] flex-wrap relative'>
     <motion.img 
       animate={{
         y:'-100%',
@@ -190,5 +194,35 @@ const BlackArrow = () =>{
     </div>
 
     </>
+  )
+}
+
+const MaroonSquare = () =>{
+  const [scope,animate] = useAnimate()
+  useEffect(() => {
+    // Define a function to create the infinite animation loop
+    const startAnimation = async () => {
+      function delay(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+      }
+      while (true) {
+        animate('img:first-child', { x: '100%' }, { type: "spring", stiffness: 100, damping: 15,mass:1, });
+        await animate('img:nth-child(2)', { x: '-100%' }, { type: "spring", stiffness: 100, damping: 15,mass:1 });
+        animate('img:first-child', { y: '100% ' }, {delay:1, type: "spring", stiffness: 100, damping: 15,mass:1, });
+        await animate('img:nth-child(2)', { y: '-100%' }, {delay:1, type: "spring", stiffness: 100, damping: 15,mass:1 });
+        animate('img:first-child', { x:'0%',y: '0%' }, {delay:1, type: "spring", stiffness: 100, damping: 15,mass:1, });
+        await animate('img:nth-child(2)', {  x:'0%',y: '0%' }, {delay:1, type: "spring", stiffness: 100, damping: 15,mass:1 });
+        await delay(1000)
+      }
+    };
+
+    startAnimation();
+  }, [animate])
+  return(
+    <div ref={scope} className='w-full max-w-[23%] flex flex-col h-fit  overflow-hidden'>
+      <motion.img 
+      className="aspect-square w-full max-w-[50%] " src={maroonSquare} alt="" />
+      <motion.img className="ml-auto aspect-square w-full max-w-[50%]" src={maroonSquare} alt="" />
+    </div>
   )
 }
