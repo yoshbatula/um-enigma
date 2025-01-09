@@ -17,7 +17,7 @@ export default function Animations(){
 
 const RedBox = ()=>{
   return(<>
-    <div className='w-full pt-[30px]'>
+    <div className='w-full h-fit pt-[30px]'>
     <div className='w-[65%] -rotate-45  grid grid-cols-2 grid-rows-2 gap-[30px]'>
       <motion.div 
       animate={{
