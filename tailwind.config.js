@@ -9,7 +9,7 @@ export default {
         neonGradient:
          " linear-gradient(90deg, rgba(170,195,209,0.1) 0%,rgba(26,107,151,1) 50%,  rgba(170,195,209,0.1) 100%);",
         crimsonGradient:
-        'radial-gradient(circle, rgba(131,34,77,1) 0%, rgba(131,34,77,1) 23%, rgba(255,255,255,0.000001) 70%)',
+        'radial-gradient(circle, rgba(131,34,77,1) 0%, rgba(131,34,77,1) 20%, rgba(255,255,255,0.000001) 70%)',
         crimsonGradient2:
         'radial-gradient(circle, rgba(131,34,77,1) 0%, rgba(131,34,77,1) 15%, rgba(255,255,255,0.000001) 70%)',
         wheelGradient:

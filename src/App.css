@@ -1,5 +1,8 @@
 .text {
-  mask: url("#textMask");
+  mask: url("@images/enigmaHeroText.svg");
+  mask-position: cover;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
 }
 
 
