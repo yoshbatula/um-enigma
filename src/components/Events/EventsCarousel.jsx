@@ -102,7 +102,9 @@ const Images = ({imgIndex}) => {
       {imgs.map((imgSrc, index) => {
         return (
           <motion.div
-            className="bg-cover bg-center w-full h-full object-cover shrink-0 rounded-md"
+            className={`bg-cover bg-center w-full h-full object-cover shrink-0
+              ${index === 0? 'rounded-l-[8px]':''} 
+              ${index === imgs.length -1?'rounded-r-md':''}`} 
             style={{
               backgroundImage: `url(${imgSrc})`,
             }}

@@ -7,7 +7,7 @@ export default function Hero({textRef,heroSectionRef}) {
     <section
     ref={heroSectionRef}
       className="heroSection bg-no-repeat
-      bg-cover bg- min-h-lvh px-[4vw] lg:px-[8vw] pb-[10px]
+      bg-cover bg- min-h-lvh px-[4vw] lg:px-[6vw] xl:px-[8vw] pb-[10px]
      text-white font-Poppins-Black flex flex-col justify-end "
     >
       <div className="flex gap-3 mb-[10px]">

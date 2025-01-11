@@ -29,7 +29,7 @@ export default function Navbar({textInView,heroSectionInView}){
     }}
     variants={navbarVariants}
     animate={isHidden?'hidden':'visible'}
-    className="fixed top-[24px] px-[4vw]  lg:px-[8vw] flex z-30
+    className="fixed top-[24px] px-[4vw] lg:px-[6vw]  xl:px-[8vw] flex z-30
     justify-between w-full text-white items-start">
       <button className={`w-[70px] aspect-square cursor-pointer 
         ${!heroSectionInView?'coloredLogo':'whiteLogo'} bg-white`} />

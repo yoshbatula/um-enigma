@@ -21,7 +21,7 @@ export default function Footer(){
       </a>
       
     </div>
-    <div className='h-[50px] w-lvw bg-[#2C2C2C] px-[calc(8vw+32px)] 
+    <div className='h-[50px] w-full bg-[#2C2C2C] px-[calc(8vw+32px)] 
     flex justify-between items-center'>
       <p className='text-[12px] font-Poppins-Bold text-white'>ALL RIGHTS RESERVED 2024</p>
       <p className='text-[12px] font-Poppins-Bold text-white'>CODED BY APRIL BORDZ</p>
