@@ -6,8 +6,8 @@ export default function About() {
   return (
     <>
       <section
-        className="min-h-lvh mt-[50px] lg:mt-[150px] grid grid-cols-[50%_50%]
-    grid-rows-3 lg:grid-rows-[65%_35%] px-[4vw] lg:px-[6vw] xl:px-[8vw]"
+        className="lg:min-h-lvh mt-[50px] lg:mt-[150px] grid grid-cols-[50%_50%]
+    lg:grid-rows-[65%_35%] px-[4vw] lg:px-[6vw] xl:px-[8vw]"
       >
         <div className="flex flex-col justify-start px-[16px]  
         lg:px-[0px] xl:px-[28px] col-span-2 lg:col-span-1 lg:mb-[50px]">
@@ -64,7 +64,9 @@ export default function About() {
             </span>
           </button>
         </div>
-        <div className="grid grid-cols-[50%_50%] w-fit lg:w-full pl-[16px] lg:pl-[37px] grid-rows-2 lg:grid-rows-[20%_80%]
+        <div className="grid grid-cols-[50%_50%] w-fit lg:w-full 
+        mt-[40px] lg:mt-0
+        pl-[16px] lg:pl-[37px] grid-rows-2 lg:grid-rows-[20%_80%]
         col-span-2 lg:col-span-1">
           <div
             className="flex flex-col mt-[106px] lg:mt-[43px] leading-none 

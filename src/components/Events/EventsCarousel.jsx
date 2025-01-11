@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import webvemberFigma from "@images/webvemberFigma.png";
 import webvemberWeb from "@images/webvemberWeb.png";
 import webvemberGithub from "@images/webvemberGithub.png";

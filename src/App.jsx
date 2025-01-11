@@ -24,6 +24,7 @@ function App() {
       <Hero textRef={textRef} heroSectionRef={heroSectionRef} ></Hero>
       <About></About>
       <Events ></Events>
+      <Organizations></Organizations>
       <Knowledge></Knowledge>
       <Logo></Logo>
       <Footer></Footer>
