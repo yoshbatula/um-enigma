@@ -2,11 +2,12 @@ import facebookLogo from "@images/facebookLogo.svg";
 import instagramLogo from "@images/instagramLogo.svg";
 import linkedinLogo from "@images/linkedinLogo.svg";
         
-export default function Hero() {
+export default function Hero({textRef,heroSectionRef}) {
   return (
     <section
+    ref={heroSectionRef}
       className="heroSection bg-no-repeat
-      bg-cover bg- min-h-lvh px-[7vw] pb-[10px]
+      bg-cover bg- min-h-lvh px-[4vw] lg:px-[8vw] pb-[10px]
      text-white font-Poppins-Black flex flex-col justify-end "
     >
       <div className="flex gap-3 mb-[10px]">
@@ -14,7 +15,7 @@ export default function Hero() {
         <img className="w-[42px] lg:w-[58px]" src={instagramLogo} alt="" />
         <img className="w-[42px] lg:w-[58px]" src={linkedinLogo} alt="" />
       </div>
-      <p className="font-Poppins-Medium text-[clamp(21px,4.5vw,38px)] w-[18ch] lg:w-[28ch] leading-tight mb-[15px] ">
+      <p ref={textRef} className="font-Poppins-Medium text-[clamp(21px,4.5vw,38px)] w-[18ch] lg:w-[28ch] leading-tight mb-[15px] ">
         Ignite Aspiration. Spark Excellence.
       </p>
       <div className="min-h-auto w-full relative leading-[0.9] mb-[0px]  overflow-clip ">

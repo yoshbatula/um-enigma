@@ -18,6 +18,18 @@ div > span > .bg-neonGradient {
 
 }
 
+.whiteLogo{
+  mask: url('@images/whiteLogo.svg');
+}
+.coloredLogo{
+  background-image: url('@images/coloredLogo.svg');
+  background-color: transparent;
+}
+.whiteBox{
+  mask: url('@images/whiteBox.svg');
+  mask-size: cover;
+}
+
 
 
 @keyframes neonMove {
