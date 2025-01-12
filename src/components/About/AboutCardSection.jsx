@@ -8,7 +8,8 @@ export function AboutCardSection() {
         className="hidden lg:flex col-span-2 justify-between 
   xl:px-[28px] self-center items-center"
       >
-        <div className="flex flex-col justify-center  gap-5">
+        <div className="flex flex-col justify-center  gap-5
+         transition-colors ease-linear duration-200 p-[40px] hover:bg-[#2C2C2C0D]">
           <div
             className="aboutCard1 w-[40px] aspect-square bg-[#EAEAEA] 
           transition-colors ease-out duration-300"
@@ -24,7 +25,8 @@ export function AboutCardSection() {
             providing them opportunities to learn
           </p>
         </div>
-        <div className="flex flex-col justify-center  gap-5">
+        <div className="flex flex-col justify-center  gap-5
+        transition-colors ease-linear duration-200 p-[40px] hover:bg-[#2C2C2C0D]">
           <div
             className="aboutCard2 w-[40px] aspect-square bg-[#EAEAEA] 
           transition-colors ease-out duration-300"
@@ -40,7 +42,8 @@ export function AboutCardSection() {
             providing them opportunities to learn
           </p>
         </div>
-        <div className="flex flex-col justify-center  gap-5">
+        <div className="flex flex-col justify-center  gap-5
+        transition-colors ease-linear duration-200 p-[40px] hover:bg-[#2C2C2C0D]">
           <div
             className="aboutCard3 w-[40px] aspect-square bg-[#EAEAEA] 
           transition-colors ease-out duration-300"
@@ -163,7 +166,7 @@ const Cards = ({ cardImgs }) => {
           >
             <div className="flex flex-col justify-start max-w-fit  gap-5">
               <div
-                className={`${imgClass}  w-[40px] aspect-square bg-[#EAEAEA] 
+                className={`${imgClass}Mobile  w-[40px] aspect-square bg-[#EAEAEA] 
               transition-colors ease-out duration-300`}
               ></div>
               <p className="max-w-[24ch] font-Poppins-SemiBold text-[clamp(18px,3vw,23px)]">

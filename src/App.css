@@ -136,13 +136,16 @@ button:not(.knowledgeButton):hover > span:first-of-type{
   }
 }
 
-.aboutCard1{
+.aboutCard1,
+.aboutCard1Mobile{
   mask-image: url('@images/aboutCard1.svg');
 }
-.aboutCard2{
+.aboutCard2,
+.aboutCard2Mobile{
   mask-image: url('@images/aboutCard2.svg');
 }
-.aboutCard3{
+.aboutCard3,
+.aboutCard3Mobile{
   mask-image: url('@images/aboutCard3.svg');
 }
 
@@ -155,7 +158,15 @@ div:hover > .aboutCard2{
 div:hover > .aboutCard3{
   background-color: #a63346;
 } 
-
+.aboutCard1Mobile{
+  background-color: #0c6291;
+} 
+.aboutCard2Mobile{
+  background-color: #7e1946;
+} 
+.aboutCard3Mobile{
+  background-color: #a63346;
+}
 .rotatingCircleContainer:nth-child(1) > div{
   animation: rotatingCircle1 1.85s ease-in-out 0s infinite alternate forwards;
 }
