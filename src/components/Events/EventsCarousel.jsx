@@ -63,7 +63,7 @@ export default function EventsCarousel() {
   return (
     <>
       <div
-        className="w-[93%] h-[93%] rounded-[8px] relative
+        className="w-[93%] h-full lg:h-[93%] rounded-[8px] relative
       overflow-hidden"
       >
         <motion.div

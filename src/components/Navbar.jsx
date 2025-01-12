@@ -29,14 +29,15 @@ export default function Navbar({textInView,heroSectionInView}){
     }}
     variants={navbarVariants}
     animate={isHidden?'hidden':'visible'}
-    className="fixed top-[24px] px-[4vw] lg:px-[6vw]  xl:px-[8vw] flex z-30
+    className="fixed top-[24px] px-[4vw] lg:px-[6vw] 
+    will-change-transform xl:px-[8vw] flex z-30
     justify-between w-full text-white items-start">
       <button className={`w-[70px] aspect-square cursor-pointer 
         ${!heroSectionInView?'coloredLogo':'whiteLogo'} bg-white`} />
       <div className='flex gap-[50px]'>
         <button className={`min-h-[55px] min-w-[210px] items-center 
         rounded-[80px]  
-        ${!heroSectionInView?'border-none bg-[https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFCgkZJI6-o3wAAAZRUYxwoXAEXF9bqxeNsnj9fEStaUzqSKBOEPzvW9UE78kp3lyV41VYVomVjb7te3OcCgis5hBZaWLa4vndGqCR9RbmBokimvGWP2RElC7Kz6DHLAB748qw=&original_referer=https://www.reddit.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fjaiden-woods-34380b189%2F#006794] hover:bg-[#175c7a]'
+        ${!heroSectionInView?'border-none bg-[#006794] hover:bg-[#175c7a]'
           :'border-white hover:bg-[#00000027] border-[1px]'}
         gap-[16px] hidden lg:flex justify-center `}>
           <span className='font-Poppins-Bold mt-[3px  '>CONTACT US</span>
