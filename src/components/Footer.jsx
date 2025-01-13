@@ -3,15 +3,15 @@ import connectWithUs from '@images/connectWithUs.svg'
 export default function Footer(){
   return(<section className="flex flex-col ">
     <div className="flex  justify-between px-[calc(4vw_+_20px)] lg:px-[6vw]  xl:px-[calc(8vw+60px)] mb-[60px] md:mb-[160px]">
-      <a className='flex items-center gap-[4px]'>
+      <a href='https://www.facebook.com/um.enigma' className='flex items-center gap-[4px]'>
       <p className="text-[10px] md:text-[12px] font-Poppins-Bold text-[#0C6291]">FACEBOOK</p>
       <img className=' w-[14px] md:w-[18px]' src={aboutArrow} alt="" />
       </a>
-      <a className='flex items-center gap-[4px]'>
+      <a href='https://instagram.com/cce.enigma' className='flex items-center gap-[4px]'>
       <p className="text-[10px] md:text-[12px] font-Poppins-Bold text-[#0C6291]">INSTAGRAM</p>
       <img className=' w-[14px] md:w-[18px]' src={aboutArrow} alt="" />
       </a>
-      <a className='flex items-center gap-[4px]'>
+      <a href="https://www.linkedin.com/company/um-enigma" className='flex items-center gap-[4px]'>
       <p className="text-[10px] md:text-[12px] font-Poppins-Bold text-[#0C6291]">LINKEDIN</p>
       <img className=' w-[14px] md:w-[18px]' src={aboutArrow} alt="" />
       </a>

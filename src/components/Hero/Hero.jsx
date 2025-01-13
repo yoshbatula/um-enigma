@@ -11,9 +11,9 @@ export default function Hero({textRef,heroSectionRef}) {
      text-white font-Poppins-Black flex flex-col justify-end "
     >
       <div className="flex gap-3 mb-[10px]">
-        <img className="w-[42px] lg:w-[58px]" src={facebookLogo} alt="" />
-        <img className="w-[42px] lg:w-[58px]" src={instagramLogo} alt="" />
-        <img className="w-[42px] lg:w-[58px]" src={linkedinLogo} alt="" />
+        <a href="https://www.facebook.com/um.enigma"><img className="w-[42px] lg:w-[58px]" src={facebookLogo} alt="" /></a>
+        <a href="https://www.instagram.com/cce.enigma/"><img className="w-[42px] lg:w-[58px]" src={instagramLogo} alt="" /></a>
+        <a href="https://www.linkedin.com/company/um-enigma/"><img className="w-[42px] lg:w-[58px]" src={linkedinLogo} alt="" /></a>
       </div>
       <p ref={textRef} className="font-Poppins-Medium text-[clamp(21px,4.5vw,38px)] w-[18ch] lg:w-[28ch] leading-tight mb-[15px] ">
         Ignite Aspiration. Spark Excellence.
