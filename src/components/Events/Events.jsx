@@ -26,7 +26,7 @@ export default function Events() {
         <RotatingCircles />
       </div>
 
-      <div className="flex flex-col col-span-2 lg:col-span-1 justify-end pl-[30px] py-[30px]">
+      <div className="flex flex-col col-span-2 lg:col-span-1 justify-end pl-[20px] py-[30px]">
         <div className="flex gap-3 items-center mb-[12px] lg:mb-0">
           <span className="h-[2px] w-[40px] bg-[#A63346]"></span>
           <h3 className="font-Poppins-Medium text-[16px] lg:text-[18px] text-[#A63346]">

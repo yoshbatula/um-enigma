@@ -58,7 +58,7 @@ export default function KnowledgeCards (){
         onMouseEnter={() => setMouseHover(index)}
         onMouseLeave={() => setMouseHover(null)}
         key={"knowledge" + index}
-        className="w-full flex flex-col p-[30px] pb-[145px] hover:pb-[60px]
+        className="w-full flex flex-col  p-[30px] px-[15px] xl:px-[30px] pb-[145px] hover:pb-[60px]
          transition-all ease-in-out duration-[700ms] gap-[17px] items-center justify-start
         knowledgeCard relative"
       >

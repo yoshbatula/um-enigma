@@ -10,7 +10,7 @@ import org8 from '@images/org8.svg'
 
 export default function Organizations(){
   return(
-    <section className="min-h-[100vh] h-fit flex flex-col gap-[12px] lg:gap-0 lg:grid lg:min-h-[68vh]  lg:grid-rows-[40%_60%] mb-[30px] px-[4vw] lg:px-[6vw]  xl:p-[30px] xl:px-[calc(8vw_+_30px)]">
+    <section className=" h-fit flex flex-col gap-[12px] lg:gap-0 lg:grid lg:min-h-[68vh]  lg:grid-rows-[40%_60%] mb-[30px] px-[4vw] lg:px-[6vw]  xl:p-[30px] xl:px-[calc(8vw_+_30px)]">
       <div className="flex justify-between   items-start lg:items-center px-[20px] lg:px-0">
         <div className="flex flex-col">
           <div className='flex items-center gap-[12px] mb-[12px]'>

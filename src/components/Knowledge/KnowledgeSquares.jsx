@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 export default function KnowledgeSquares(){
 
   return(
-    <div className='flex flex-col justify-end overflow-hidden'>
+    <div className='hidden lg:flex flex-col justify-end overflow-hidden'>
       <motion.img 
       animate={{
         x:['0%','100%'],y:['0%','100%']
