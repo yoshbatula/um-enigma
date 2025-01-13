@@ -6,15 +6,15 @@ import KnowledgeCarousel from "./KnowledgeCarousel";
 export default function Knowledge() {
   
   return (
-    <section className="min-h-[117vh] grid grid-rows-[1fr_270px] lg:grid-rows-[67%_33%] px-[4vw] xl:px-[calc(8vw+30px)]">
+    <section className="min-h-[800px] h-[100vh]   lg:min-h-[117vh] grid grid-rows-[1fr_240px] lg:grid-rows-[67%_33%] px-[4vw] xl:px-[calc(8vw+30px)]">
       <div className="hidden w-full lg:flex">
         <KnowledgeCards />
       </div>
-      <div className="flex flex-col items-center lg:hidden">
+      <div className="flex flex-col items-center pl-[20px] lg:pl-[0px] lg:hidden">
         <KnowledgeCarousel />
       </div>
       <div className="grid grid-cols-4 h-fit">
-        <div className="col-span-4 lg:col-span-2 gap-[12px] pl-[20px] py-[30px] lg:p-[30px] flex flex-col justify-end">
+        <div className="col-span-4 lg:col-span-2 gap-[12px] pl-[20px] py-[10px] lg:p-[30px] flex flex-col justify-end">
           <div className="flex gap-[12px] items-center">
             <div className="w-[40px] h-[2px] bg-[#A63346]"></div>
             <h3 className="font-Poppins-Medium text-[16px] lg:text-[18px] text-[#A63346]">

@@ -18,7 +18,7 @@ export default function Animations(){
 const RedBox = ()=>{
   return(<>
     <div className='w-full h-fit pt-[30px]'>
-    <div className='w-[65%] -rotate-45  grid grid-cols-2 grid-rows-2 gap-[30px]'>
+    <div className='w-[65%] ml-[30px] lg:ml-0 -rotate-45  grid grid-cols-2 grid-rows-2 gap-[30px]'>
       <motion.div 
       animate={{
         x:'calc(100%  + 30px)'
@@ -123,7 +123,7 @@ const BlueRectangle = () =>{
 const BlackArrow = () =>{
   return(
     <>
-    <div className='w-full max-w-[23%] h-fit flex items-start overflow-hidden p-[2px] flex-wrap relative'>
+    <div className='w-full md:max-w-[23%] h-fit flex items-start overflow-hidden p-[2px] flex-wrap relative'>
     <motion.img 
       animate={{
         y:'-100%',
@@ -219,7 +219,7 @@ const MaroonSquare = () =>{
     startAnimation();
   }, [animate])
   return(
-    <div ref={scope} className='w-full max-w-[23%] flex flex-col h-fit  overflow-hidden'>
+    <div ref={scope} className='w-full md:max-w-[23%] flex flex-col h-fit  overflow-hidden'>
       <motion.img 
       className="aspect-square w-full max-w-[50%] " src={maroonSquare} alt="" />
       <motion.img className="ml-auto aspect-square w-full max-w-[50%]" src={maroonSquare} alt="" />
