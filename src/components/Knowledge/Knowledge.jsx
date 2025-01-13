@@ -6,7 +6,7 @@ import KnowledgeCarousel from "./KnowledgeCarousel";
 export default function Knowledge() {
   
   return (
-    <section className="min-h-[800px] h-[100vh]   lg:min-h-[117vh] grid grid-rows-[1fr_240px] lg:grid-rows-[67%_33%] px-[4vw] xl:px-[calc(8vw+30px)]">
+    <section className="min-h-[800px] md:min-h-[1100px] h-[100vh]   lg:min-h-[117vh] grid grid-rows-[1fr_240px] lg:grid-rows-[67%_33%] px-[4vw] xl:px-[calc(8vw+30px)]">
       <div className="hidden w-full lg:flex">
         <KnowledgeCards />
       </div>
