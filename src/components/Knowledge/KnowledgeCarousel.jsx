@@ -1,4 +1,4 @@
-import webvemberWeb from "@images/webvemberWeb.png";
+import webDevBanner from "@images/WebDevBanner-6.png";
 import webvemberGithub from "@images/webvemberGithub.png";
 import webvemberAstro from "@images/webvemberAstro.png";
 import aboutArrow from "@images/aboutArrow.svg";
@@ -7,7 +7,7 @@ import { motion, useMotionValue, useMotionValueEvent } from "motion/react";
 import { useEffect, useState } from "react";
 
 
-const imgs = [webvemberWeb, webvemberAstro,webvemberGithub];
+const imgs = [webDevBanner, webvemberAstro,webvemberGithub];
 
 export default function KnowledgeCarousel(){
   const [dragging, setDragging] = useState(false);

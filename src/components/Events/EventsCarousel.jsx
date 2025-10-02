@@ -1,5 +1,5 @@
 import webvemberFigma from "@images/webvemberFigma.png";
-import webvemberWeb from "@images/webvemberWeb.png";
+import webvemberWeb from "@images/WebDevBanner-6.png";
 import webvemberGithub from "@images/webvemberGithub.png";
 import webvemberAstro from "@images/webvemberAstro.png";
 import { motion, useMotionValue, useMotionValueEvent } from "motion/react";

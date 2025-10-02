@@ -1,4 +1,4 @@
-import webvemberWeb from "@images/webvemberWeb.png";
+import webvemberWeb from "@images/WebDevBanner-6.png";
 import webvemberAstro from "@images/webvemberAstro.png";
 import webvemberGithub from "@images/webvemberGithub.png";
 import whiteAboutArrow from "@images/whiteAboutArrow.svg";
