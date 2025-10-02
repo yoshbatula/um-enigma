@@ -24,7 +24,7 @@ export default function Footer(){
     <div className='h-[50px] w-full bg-[#2C2C2C] px-[calc(4vw)] lg:px-[6vw] xl:px-[calc(8vw+32px)] 
     flex justify-between items-center'>
       <p className='text-[12px] font-Poppins-Bold text-white'>ALL RIGHTS RESERVED 2025</p>
-      <p className='text-[12px] font-Poppins-Bold text-white'>CODED BY <a className='underline' target='_blank' href="https://www.facebook.com/aprilbords.nerosa">APRIL BORDZ</a></p>
+      <p className='text-[12px] font-Poppins-Bold text-white'>CODED BY <a className='underline' target='_blank' href="https://www.facebook.com/um.enigma">UM-ENIGMA TECH</a></p>
       <div className='absolute left-1/2 -translate-x-1/2 bottom-[45px] lg:bottom-[40px] w-[calc(100%-32px)] h-fit flex  items-start'>
       <img src={connectWithUs} className=' text-[7vw] font-Poppins-Bold
       w-full
