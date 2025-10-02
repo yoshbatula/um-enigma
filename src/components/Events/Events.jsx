@@ -34,14 +34,14 @@ export default function Events() {
           </h3>
         </div>
         <p className="font-Poppins-SemiBold text-[clamp(24px,3.8vw,43px)] mb-[16px] lg:mb-[4px]">
-          Unveiling The Web
+          Web Development Start to Finish:
         </p>
         <p
           className="font-Poppins-Medium text-[clamp(14px,2vw,18px)] opacity-70 
 
         text-[#2C2C2C]"
         >
-          Introduction To Web Development
+          The Fundamentals of Web Development
         </p>
         <button
           className="w-full lg:w-auto px-[30px] self-baseline min-h-[60px] flex justify-center items-center

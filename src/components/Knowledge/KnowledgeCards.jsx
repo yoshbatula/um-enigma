@@ -41,7 +41,7 @@ export default function KnowledgeCards (){
 
   const imgs = [webvemberWeb, webvemberAstro, webvemberGithub];
   const titles = [
-    "UNVEILING THE WEB",
+    "Web Development Start to Finish",
     "ASTRO DEVELOPMENT",
     "GITHUB ESSENTIALS",
   ];
