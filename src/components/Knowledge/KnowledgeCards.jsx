@@ -39,13 +39,11 @@ export default function KnowledgeCards (){
       imageContainer.getBoundingClientRect().width;
   }, [windowSize]);
 
-  const imgs = [webvemberWeb, webvemberAstro, webvemberGithub];
+  const imgs = [webvemberWeb];
   const titles = [
-    "Web Development Start to Finish",
-    "ASTRO DEVELOPMENT",
-    "GITHUB ESSENTIALS",
+    "Web Development Start to Finish"
   ];
-  const tags = ["WEB DEVELOPMENT", "WEB DEVELOPMENT", "GITHUB"];
+  const tags = ["WEB DEVELOPMENT"];
 
   const buttonVariant = {
     notHovered: { width: imageContainerWidthRef.current, y: "0px" },
@@ -58,7 +56,7 @@ export default function KnowledgeCards (){
         onMouseEnter={() => setMouseHover(index)}
         onMouseLeave={() => setMouseHover(null)}
         key={"knowledge" + index}
-        className="w-full flex flex-col  p-[30px] px-[15px] xl:px-[30px] pb-[145px] hover:pb-[60px]
+        className="w-full max-w-[500px] min-h-[470px] flex flex-col p-[30px] px-[15px] xl:px-[30px] pb-[100px] hover:pb-[50px]
          transition-all ease-in-out duration-[700ms] gap-[17px] items-center justify-start
         knowledgeCard relative"
       >
@@ -71,7 +69,7 @@ export default function KnowledgeCards (){
         <span
           className={`${
             mouseHover === index ? "-translate-y-[10px]" : ""
-          } absolute bottom-[163px] left-[60px] font-Poppins-SemiBold
+          } absolute bottom-[120px] left-[60px] font-Poppins-SemiBold
         text-white text-[24px] z-10 ease-in-out duration-[600ms] transition-transform`}
         >
           {titles[index]}
@@ -80,7 +78,7 @@ export default function KnowledgeCards (){
           style={{
             backgroundImage: `url(${imgSrc})`,
           }}
-          className={`w-full h-full bg-cover bg-center origin-top rounded-[8px]
+          className={`w-full flex-1 min-h-[250px] bg-cover bg-center origin-top rounded-[8px]
              relative overflow-clip `}
         >
           <div className="absolute inset-0 h-full w-full bg-knowledgeCardGradient"></div>
@@ -93,7 +91,7 @@ export default function KnowledgeCards (){
             duration: 0.6,
           }}
           className={`min-w-[200px] w-[calc(100%-60px)] min-h-[58px] flex justify-center items-center absolute
-          bottom-[70px] mx-[30px] transition-colors ease-in-out duration-500
+          bottom-[30px] mx-[30px] transition-colors ease-in-out duration-500
           text-[16px] font-Poppins-Bold text-[#0C6291] gap-[16px]
           knowledgeButton ${mouseHover === index ? "bg-white" : ""}
           border-[2px] border-[#0C6291] rounded-full`}

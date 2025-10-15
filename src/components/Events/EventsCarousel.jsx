@@ -5,7 +5,7 @@ import webvemberAstro from "@images/webvemberAstro.png";
 import { motion, useMotionValue, useMotionValueEvent } from "motion/react";
 import { useEffect, useState } from "react";
 
-const imgs = [webvemberFigma, webvemberWeb, webvemberGithub, webvemberAstro];
+const imgs = [webvemberWeb];
 
 export default function EventsCarousel() {
   const [dragging, setDragging] = useState(false);
